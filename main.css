@@ -1,0 +1,59 @@
+*{
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 24px;
+}
+.container {
+    color: brown;
+    font-size: 24px;
+    text-align: center;
+}
+
+form {
+    margin-top: 40px;
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 50%;
+    display: inline;
+    border-radius: 10px;
+}
+
+form button {
+    color:rgb(0, 0, 0);
+    background-color: rgb(73, 199, 94);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(5, 121, 24);
+}
+
+.msgSucesso {
+    background-color: rgb(73, 199, 94);
+    font-size: 16px;
+    border-radius: 10px;
+    color: black;
+    padding: 16px;
+    display: none;
+    width: 388px;
+    margin: 0 auto;
+    
+}
+.msgNSucesso {
+    background-color: rgb(199, 73, 73);
+    font-size: 16px;
+    width: 388px;
+    border-radius: 10px;
+    color: black;
+    padding: 16px;
+    display: none;
+    margin: 0 auto;
+}
